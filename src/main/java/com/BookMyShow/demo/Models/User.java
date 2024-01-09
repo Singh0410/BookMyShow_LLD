@@ -11,8 +11,9 @@ import java.util.List;
 @Getter
 @Setter
 public class User extends BaseModel{
+
     private  String name;
-    private int phoneNumber;
+    private String phoneNumber;
     private String email;
     /*
     User Booking

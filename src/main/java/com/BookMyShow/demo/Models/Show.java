@@ -7,10 +7,13 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Entity
+
 @Getter
 @Setter
-public class Show extends  BaseModel{
+@Entity(name = "Shows")
+public class Show extends  BaseModel
+{
+
     private Date startTime;
     private Date endTime;
 
@@ -20,6 +23,4 @@ public class Show extends  BaseModel{
     @ManyToOne
     private Screen screen;
 
-
-//    testing the push on github.
 }

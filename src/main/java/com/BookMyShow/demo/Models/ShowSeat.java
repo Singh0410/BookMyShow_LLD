@@ -37,6 +37,7 @@ import lombok.Getter;
      */
     @ManyToOne
     private Seat seat;
+
     @Enumerated(EnumType.ORDINAL)
     private SeatStatus status;
 

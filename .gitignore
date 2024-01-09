@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+# Ignore specific files
+file_to_ignore.txt
+another_file_to_ignore.log
+
+# Ignore all files in a directory
+logs/
+
+# Ignore all files with a specific extension
+*.tmp
+
+# Ignore files in a specific directory and its subdirectories
+node_modules/
+.mvn/wrapper
+.gitignore
